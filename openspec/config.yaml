@@ -1,0 +1,12 @@
+schema: linear-driven
+
+rules:
+  proposal:
+    - Use the glossary skill before drafting the proposal.
+  design:
+    - Use the adrs skill during design.
+
+operations:
+  apply:
+    guidance:
+      - Use the senior-engineer agent defined in .codex/agents/senior-engineer.toml for implementation tasks.

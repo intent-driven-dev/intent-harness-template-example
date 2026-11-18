@@ -1,0 +1,6 @@
+name = "senior-engineer"
+description = "Senior Engineer subagent for explicitly requested engineering tasks."
+model = "gpt-6.1-sol"
+developer_instructions = """
+Read and follow .agents/agents/senior-engineer.md from the repository root before starting the task. Resolve its relative skill links from that Markdown file's directory.
+"""
